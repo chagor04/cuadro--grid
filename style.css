@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    background: rgb(26,22,99);
+    background: radial-gradient(circle, rgba(26,22,99,1) 0%, rgba(92,5,195,0.9360119047619048) 37%, rgba(92,5,195,0.9360119047619048) 72%);
+}
+.contenedor{
+    height: 90%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2%;
+    grid-template-rows: repeat(3, 1fr);
+}
+.img1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border-radius: 3%;
+    background-image: url("https://i.pinimg.com/originals/30/f3/84/30f384fbe5499def6feac0bf5eb05014.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-radius: 3%;
+    background-image: url("https://media.istockphoto.com/id/1054353490/es/foto/fotos-random-de-paisajes-en-el-reino-unido.jpg?s=1024x1024&w=is&k=20&c=v8JA0-z_jbebVUZqcEvSxt-JFtsnpxk8vAs1Kb3YArA=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 3%;
+    background-image: url("https://wallpaperstock.net/highway-sky-monta%C3%B1as-paisajes-wallpapers_45815_1920x1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img4{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    border-radius: 3%;
+    background-image: url("https://img.wattpad.com/e7133011d6626d76b1b1599cb9b4008c9054281f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f35397279544d67596847544b31513d3d2d32302e313465353333396464633339326234623633363334303635363430362e6a7067");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img5{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    border-radius: 3%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9fJlNkQrD4J9Cymo2EjT6P-sc2yVK6Tl5vA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-radius: 3%;
+    background-image: url("https://viajes.nationalgeographic.com.es/medio/2018/09/06/valle-de-funes-montes-dolomitas-italia_5fff19b9_1500x1000.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.img7{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    border-radius: 3%;
+    background-image: url("https://www.hola.com/imagenes//viajes/20201028178202/pueblos-y-paisajes-de-europa-perfectos-en-otono/0-883-415/santa-maria-magdalena-dolomitas-t.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img8{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    border-radius: 3%;
+    background-image: url("https://concepto.de/wp-content/uploads/2019/02/paisaje-natural-portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
